@@ -1,0 +1,26 @@
+{
+	"extends": "./tsconfig.json",
+	"include": [
+		"*.ts",
+		"*.js",
+		"backend/**/*.ts",
+		"app/ambient.d.ts",
+		"app/.svelte-kit/types/**/$types.d.ts",
+		"app/vite.config.ts",
+		"app/src/**/*.js",
+		"app/src/**/*.ts",
+		"app/src/**/*.svelte",
+		"app/*.js",
+		"app/*.ts"
+	],
+	"exclude": [
+		"app/build/**",
+		"backendg/build/**",
+		"app/node_modules/**",
+		"node_modules/**",
+		"app/.svelte-kit/[!ambient.d.ts]**",
+		"app/src/service-worker.js",
+		"app/src/service-worker.ts",
+		"app/src/service-worker.d.ts"
+	]
+}

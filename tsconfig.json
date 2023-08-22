@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"allowJs": false,
+		"strict": true,
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"sourceMap": true,
+		"pretty": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitReturns": true,
+		"forceConsistentCasingInFileNames": true,
+		"esModuleInterop": true,
+		"verbatimModuleSyntax": true,
+		"isolatedModules": true,
+		"declarationMap": true,
+		"declaration": true,
+		"composite": true
+	},
+	"include": [],
+	"references": [
+		{
+			"path": "./lib"
+		},
+		{
+			"path": "./worker"
+		}
+	]
+}
